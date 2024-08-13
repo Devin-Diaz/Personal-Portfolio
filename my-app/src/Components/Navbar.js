@@ -4,19 +4,19 @@ import '../Styles/navbarStyle.css';
 export default function Navbar() {
     return (
         <nav className='navbar'>
-            <a className='title' href='/'>devin-diaz@portfolio:</a>
+            <a className='title' href='/'>devin-diaz@portfolio:~$</a>
             <ul>
                 <li>
                     <a href='/'>~/</a>
                 </li>
                 <li>
-                    <a href='/projects'>/projects</a>
+                    <a href='/projects'>projects/</a>
                 </li>
                 <li>
-                    <a href='/resume'>/resume</a>
+                    <a href='/resume'>resume/</a>
                 </li>
                 <li>
-                    <a href='/contact'>/contact</a>
+                    <a href='/contact'>contact/</a>
                 </li>
             </ul>
         </nav>

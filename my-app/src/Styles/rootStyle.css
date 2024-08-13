@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Clean and modern font */
+    background-color: #fff; /* Simple white background */
+    color: #333; /* Text color for readability */
+}
+
+.container {
+    max-width: 800px; /* Limits the width of the content */
+    margin: 50px auto; /* Centers the container and adds some top margin */
+    padding: 0 20px; /* Adds horizontal padding without extra space */
+}
+
+h1 {
+    font-size: 2rem; /* Slightly smaller and bold heading */
+    margin-bottom: 1rem;
+    color: #333; /* Dark color for the heading */
+    text-align: center; /* Centers the heading text */
+}
+
+p {
+    font-size: 1rem; /* Standard text size */
+    line-height: 1.5; /* Comfortable line height */
+    text-align: center; /* Centers the paragraph text */
+}
