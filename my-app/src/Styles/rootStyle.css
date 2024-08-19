@@ -1,25 +1,41 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif; /* Clean and modern font */
-    background-color: #fff; /* Simple white background */
-    color: #333; /* Text color for readability */
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adds space between the images */
+}
+
+.profile-img, .cool-img {
+    max-width: 100%;
+    max-height: 300px; /* Uniform height for the images */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    margin: 10px; /* Adds some space around the images */
+    border-radius: 10px; /* Optional: adds rounded corners for a polished look */
 }
 
 .container {
-    max-width: 800px; /* Limits the width of the content */
-    margin: 50px auto; /* Centers the container and adds some top margin */
-    padding: 0 20px; /* Adds horizontal padding without extra space */
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
 }
 
 h1 {
-    font-size: 2rem; /* Slightly smaller and bold heading */
+    font-size: 3rem;
     margin-bottom: 1rem;
-    color: #333; /* Dark color for the heading */
-    text-align: center; /* Centers the heading text */
+    color: #333;
+    text-align: center;
 }
 
 p {
-    font-size: 1rem; /* Standard text size */
-    line-height: 1.5; /* Comfortable line height */
-    text-align: center; /* Centers the paragraph text */
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
 }
